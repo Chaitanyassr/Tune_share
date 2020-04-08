@@ -8,7 +8,10 @@
 export default{
 asyncData{{params}}{
 
-	
+	return axios.get('https://www.apple.com/search?term=${params.id}&entity=album')
+	.then((response) => {
+		store.commit('add', response.data.results);
+	});	
 }
 	middleware : 'search'
 
