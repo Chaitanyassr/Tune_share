@@ -18,6 +18,6 @@
 
 }
 .title:visited{
-	color: white;
+	color: blue;
 }
 </style>

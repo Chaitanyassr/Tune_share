@@ -1,7 +1,7 @@
 {
-  "name": "TuneShare",
+  "name": "Tune_Share",
   "version": "1.0.0",
-  "description": "PWA build with nuxt to search songs on itune.",
+  "description": "An app to share music",
   "author": "Chaitanyassr",
   "private": true,
   "scripts": {
@@ -17,13 +17,14 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.0.0",
     "@vue/test-utils": "^1.0.0-beta.27",
+    "axios": "^0.19.2",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
     "nodemon": "^1.18.9",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
-    "vue-jest": "^4.0.0-0"
+    "vue-jest": "^4.0.0-0",
+    "vuetify": "^2.2.21"
   }
 }

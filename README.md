@@ -1,6 +1,6 @@
-# TuneShare
+# Tune_Share
 
-> PWA build with nuxt to search songs on itune.
+> An app to share music
 
 ## Build Setup
 
