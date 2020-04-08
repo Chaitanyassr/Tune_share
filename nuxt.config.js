@@ -15,14 +15,15 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {rel:'stylesheet', href= 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+icons'}
+      {rel:'stylesheet', href= 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'}
 
     ]
   },
   /*
   ** Customize the progress-bar color
   */
-  plugins: ['~plugins/vuetify.js']
+  plugins: ['~plugins/vuetify.js'],
+  css: ['~assets/app.styl'],
   loading: { color: '#fff' },
   /*
   ** Global CSS
