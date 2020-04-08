@@ -14,12 +14,15 @@ module.exports = {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {rel:'stylesheet', href= 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+icons'}
+
     ]
   },
   /*
   ** Customize the progress-bar color
   */
+  plugins: ['~plugins/vuetify.js']
   loading: { color: '#fff' },
   /*
   ** Global CSS
@@ -67,6 +70,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+  	vendors: ['axios', 'vuetify'],
     /*
     ** You can extend webpack config here
     */
