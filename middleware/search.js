@@ -1,5 +1,5 @@
 
 
-export default function( context ){
-	context.params.id = 'Changed';
+export default function( params ){
+	params.id = 'Changed123';
 }
