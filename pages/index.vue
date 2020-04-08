@@ -1,5 +1,11 @@
 <template>
- 
+ <div>
+ <h1>Search Itunes</h1>
+ <br/>
+ <form>
+ <input placeholder="Enter Artist name" v-model="search" autofocus/>
+ </form>
+ </div>
 </template>
 
 <script>
@@ -8,8 +14,14 @@ import ToolBar from '~/components/Toolbar.vue';
 export default {
   components: {
   ToolBar
+  },
+  data(){
+  return{
+  search: ''
+  }
   }
 }
+
 </script>
 
 <style>
