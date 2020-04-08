@@ -22,7 +22,7 @@ export default {
   },
   methods: {
   submit(event){
-  alert('hello world')
+      this.$router.push('results/123');
   }
   }
 }
