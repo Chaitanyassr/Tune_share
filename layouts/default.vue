@@ -1,4 +1,10 @@
 <template>
+<div>
+<ToolBar/>
+<nuxt/>
+</div>
+</template>
+<template>
   <v-app dark>
     <v-navigation-drawer
       v-model="drawer"
@@ -112,6 +118,15 @@ export default {
       rightDrawer: false,
       title: 'Vuetify.js'
     }
+  }
+}
+</script>
+
+<script>
+import ToolBar from '~/components/Toolbar.vue';
+export default {
+  components: {
+  ToolBar
   }
 }
 </script>
