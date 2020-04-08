@@ -2,8 +2,8 @@
  <div>
  <h1>Search Itunes</h1>
  <br/>
- <form>
- <input placeholder="Enter Artist name" v-model="search" autofocus/>
+ <form @submit.prevent="submit">
+ <input placeholder="Enter Artist name" v-model="search" autofocus />
  </form>
  </div>
 </template>
@@ -18,6 +18,11 @@ export default {
   data(){
   return{
   search: ''
+  }
+  },
+  methods: {
+  submit(event){
+  alert('hello world')
   }
   }
 }
